@@ -20,7 +20,7 @@ const features = [
       </svg>
     )
   },
-  { 
+ {/*} { 
     title: "Receive Payment Through Voluwork", 
     desc: "Get paid directly for your community impact work through our platform",
     icon: (
@@ -28,7 +28,7 @@ const features = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-1a2 2 0 01-2-2H9a2 2 0 01-2-2v-1a2 2 0 012-2m2-2V9a2 2 0 012-2" />
       </svg>
     )
-  },
+  },*/}
 ];
 
 export default function VoluworkPage() {
