@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 const features = [
   { 
     title: "Impact Videos", 
-    desc: "Upload and showcase your community work with short videos",
+    desc: "Upload and showcase your community work with short videos and earn data credit after every impactful and meaningful video to enable you to post more",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276L20 10V18H4V6L8.553 3.724 12 6 15.447 3.724 20 6" />
@@ -21,11 +21,11 @@ const features = [
     )
   },
   { 
-    title: "Digital Wallet", 
-    desc: "Withdraw earnings instantly to bank or mobile money",
+    title: "Receive Payment Through Voluwork", 
+    desc: "Get paid directly for your community impact work through our platform",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-1a2 2 0 01-2-2H9a2 2 0 01-2-2v-1a2 2 0 012-2m2-2V9a2 2 0 012-2" />
       </svg>
     )
   },
@@ -93,7 +93,7 @@ export default function VoluworkPage() {
 
             <p className="text-lg md:text-xl text-emerald-100 mb-8">
               The video platform where volunteers document community work, 
-              gain visibility, and receive direct donations.
+              gain visibility, and receive direct support.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -104,9 +104,6 @@ export default function VoluworkPage() {
               >
                 Get Started on Instagram
               </a>
-              <button className="border border-white/70 hover:bg-white/10 px-8 py-4 rounded-2xl font-medium transition-all text-lg">
-                Watch Demo Videos
-              </button>
             </div>
           </div>
         </div>
