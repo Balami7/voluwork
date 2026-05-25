@@ -17,40 +17,37 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: 'Voluwork - Show Your Impact. Get Real Support.',
-  description: 'The video-based social impact platform where volunteers document community work, gain visibility, and receive direct donations from supporters worldwide.',
-  keywords: [
-    'Voluwork',
-    'Social Impact',
-    'Volunteer Platform',
-    'Community Work',
-    'Crowdfunding',
-    'Impact Videos',
-    'Youth Development',
-    'Nigeria Volunteers',
-    'Donate to Volunteers'
-  ],
-  authors: [{ name: 'Voluwork' }],
+  description: 'The video-based social impact platform where volunteers document community work, gain visibility, and receive direct donations.',
+  
   icons: {
-    icon: [
+    icon: '/volu.ico',           // Main favicon
+    shortcut: '/volu.ico',
+    apple: '/apple-touch-icon.png', // For iOS home screen
+    other: [
       {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
         url: '/volu.png',
-        type: 'image/png', // Explicitly tells the browser it is a PNG file
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        url: '/favicon-16x16.png',
       },
     ],
-    shortcut: '/volu.png',
-    apple: '/volu.png', // Uses the same PNG for Apple home screen bookmarks
   },
+
   openGraph: {
     title: 'Voluwork - Where Community Impact Meets Global Support',
     description: 'Document your voluntary work, build supporters, and earn donations through impactful videos.',
     images: [{ url: '/volu.png' }],
     siteName: 'Voluwork',
-    type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Voluwork - Show Your Impact. Get Real Support.',
-    description: 'Video platform for volunteers to showcase community work and receive support.',
     images: ['/volu.png'],
   },
 };
