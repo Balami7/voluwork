@@ -19,17 +19,27 @@ export const metadata: Metadata = {
   title: 'Voluwork - Show Your Impact. Get Real Support.',
   description: 'The video-based social impact platform where volunteers document community work, gain visibility, and receive direct donations from supporters worldwide.',
   keywords: [
-    'Voluwork', 
-    'Social Impact', 
-    'Volunteer Platform', 
-    'Community Work', 
-    'Crowdfunding', 
-    'Impact Videos', 
-    'Youth Development', 
+    'Voluwork',
+    'Social Impact',
+    'Volunteer Platform',
+    'Community Work',
+    'Crowdfunding',
+    'Impact Videos',
+    'Youth Development',
     'Nigeria Volunteers',
     'Donate to Volunteers'
   ],
   authors: [{ name: 'Voluwork' }],
+  icons: {
+    icon: [
+      {
+        url: '/volu.png',
+        type: 'image/png', // Explicitly tells the browser it is a PNG file
+      },
+    ],
+    shortcut: '/volu.png',
+    apple: '/volu.png', // Uses the same PNG for Apple home screen bookmarks
+  },
   openGraph: {
     title: 'Voluwork - Where Community Impact Meets Global Support',
     description: 'Document your voluntary work, build supporters, and earn donations through impactful videos.',
