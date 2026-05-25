@@ -29,6 +29,15 @@ const features = [
       </svg>
     )
   },*/}
+  { 
+    title: "Transparent Withdrawals", 
+    desc: "All support and donations received for your community work are processed transparently through Voluwork.",
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-1a2 2 0 01-2-2H9a2 2 0 01-2-2v-1a2 2 0 012-2m2-2V9a2 2 0 012-2" />
+      </svg>
+    )
+  },
 ];
 
 export default function VoluworkPage() {
