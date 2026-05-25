@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Voluwork - Where Community Impact Meets Global Support',
     description: 'Document your voluntary work, build supporters, and earn donations through impactful videos.',
-    images: [{ url: '/og-image.jpg' }],
+    images: [{ url: '/volu.png' }],
     siteName: 'Voluwork',
     type: 'website',
   },
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Voluwork - Show Your Impact. Get Real Support.',
     description: 'Video platform for volunteers to showcase community work and receive support.',
-    images: ['/og-image.jpg'],
+    images: ['/volu.png'],
   },
 };
 
