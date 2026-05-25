@@ -115,13 +115,13 @@ export default function VoluworkPage() {
           <div className="flex flex-wrap justify-center items-center gap-x-12 gap-y-5">
             <div className="font-medium text-gray-700">Follow us on</div>
             
-            <a href="https://www.youtube.com/voluwork" target="_blank" className="hover:scale-110 transition-transform">
+            <a href="https://youtube.com/@voluwork?si=W7hot0AVDlN_syzA" target="_blank" className="hover:scale-110 transition-transform">
               <svg xmlns="http://www.w3.org/2000/svg" className="w-9 h-9 text-red-600" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.377.505 9.377.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
               </svg>
             </a>
 
-            <a href="https://www.tiktok.com/voluwork" target="_blank" className="hover:scale-110 transition-transform">
+            <a href="https://www.tiktok.com/@voluwork?_r=1&_t=ZS-96ekbOMiOIP" target="_blank" className="hover:scale-110 transition-transform">
               <svg xmlns="http://www.w3.org/2000/svg" className="w-9 h-9" viewBox="0 0 24 24" fill="#000">
                 <path d="M12.525 3.5v8.078a4.5 4.5 0 1 1-2.25-3.89v2.25a2.25 2.25 0 1 0 2.25 2.25V3.5h2.25c.124-1.336.69-2.5 1.5-3.25h-3.75z"/>
                 <path d="M19.5 9.75a4.5 4.5 0 0 1-3.75-2.12v2.25a2.25 2.25 0 0 0 1.5 2.12v.75a6 6 0 0 1-12 0v-.75a2.25 2.25 0 0 0 1.5-2.12V9.75A6 6 0 0 1 19.5 9.75z"/>
@@ -219,13 +219,13 @@ export default function VoluworkPage() {
 
             {/* Social Icons in Footer */}
             <div className="flex gap-8">
-              <a href="https://www.youtube.com/voluwork" target="_blank" className="hover:scale-110 transition-transform">
+              <a href="https://youtube.com/@voluwork?si=W7hot0AVDlN_syzA" target="_blank" className="hover:scale-110 transition-transform">
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.377.505 9.377.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
                 </svg>
               </a>
 
-              <a href="https://www.tiktok.com/voluwork" target="_blank" className="hover:scale-110 transition-transform">
+              <a href="https://www.tiktok.com/@voluwork?_r=1&_t=ZS-96ekbOMiOIP" target="_blank" className="hover:scale-110 transition-transform">
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M12.525 3.5v8.078a4.5 4.5 0 1 1-2.25-3.89v2.25a2.25 2.25 0 1 0 2.25 2.25V3.5h2.25c.124-1.336.69-2.5 1.5-3.25h-3.75z"/>
                   <path d="M19.5 9.75a4.5 4.5 0 0 1-3.75-2.12v2.25a2.25 2.25 0 0 0 1.5 2.12v.75a6 6 0 0 1-12 0v-.75a2.25 2.25 0 0 0 1.5-2.12V9.75A6 6 0 0 1 19.5 9.75z"/>
