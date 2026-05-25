@@ -20,15 +20,6 @@ const features = [
       </svg>
     )
   },
- {/*} { 
-    title: "Receive Payment Through Voluwork", 
-    desc: "Get paid directly for your community impact work through our platform",
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-1a2 2 0 01-2-2H9a2 2 0 01-2-2v-1a2 2 0 012-2m2-2V9a2 2 0 012-2" />
-      </svg>
-    )
-  },*/}
   { 
     title: "Transparent Withdrawals", 
     desc: "All support and donations received for your community work are processed transparently through Voluwork.",
@@ -72,7 +63,7 @@ export default function VoluworkPage() {
       <nav className="bg-white border-b sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-5 md:px-6 py-5 flex justify-between items-center">
           <div className="flex items-center gap-3">
-            <img src="/volu.png" alt="Voluwork Logo" className="w-10 h-10 rounded-2xl" />
+            <img src="/volu.png" alt="Voluwork Logo" className="w-14 h-14 rounded-2xl" />
             <div className="font-bold text-2xl tracking-tight text-black">Voluwork</div>
           </div>
 
@@ -118,14 +109,31 @@ export default function VoluworkPage() {
         </div>
       </header>
 
-      {/* Trust Bar */}
-      <div className="bg-white border-b py-4">
-        <div className="max-w-7xl mx-auto px-6 flex flex-wrap justify-center items-center gap-x-10 gap-y-3 text-sm text-gray-700">
-          <div>Follow us on</div>
-          <a href="https://www.youtube.com/voluwork" target="_blank" className="hover:text-black font-medium">YouTube</a>
-          <a href="https://www.tiktok.com/voluwork" target="_blank" className="hover:text-black font-medium">TikTok</a>
-          <a href="https://www.x.com/voluwork" target="_blank" className="hover:text-black font-medium">X</a>
-          <div className="text-emerald-600 font-medium">Join 15,000+ Impact Creators</div>
+      {/* Trust Bar with Logos */}
+      <div className="bg-white border-b py-5">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="flex flex-wrap justify-center items-center gap-x-12 gap-y-5">
+            <div className="font-medium text-gray-700">Follow us on</div>
+            
+            <a href="https://www.youtube.com/voluwork" target="_blank" className="hover:scale-110 transition-transform">
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-9 h-9 text-red-600" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.377.505 9.377.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+              </svg>
+            </a>
+
+            <a href="https://www.tiktok.com/voluwork" target="_blank" className="hover:scale-110 transition-transform">
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-9 h-9" viewBox="0 0 24 24" fill="#000">
+                <path d="M12.525 3.5v8.078a4.5 4.5 0 1 1-2.25-3.89v2.25a2.25 2.25 0 1 0 2.25 2.25V3.5h2.25c.124-1.336.69-2.5 1.5-3.25h-3.75z"/>
+                <path d="M19.5 9.75a4.5 4.5 0 0 1-3.75-2.12v2.25a2.25 2.25 0 0 0 1.5 2.12v.75a6 6 0 0 1-12 0v-.75a2.25 2.25 0 0 0 1.5-2.12V9.75A6 6 0 0 1 19.5 9.75z"/>
+              </svg>
+            </a>
+
+            <a href="https://www.x.com/voluwork" target="_blank" className="hover:scale-110 transition-transform">
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8" viewBox="0 0 24 24" fill="#000">
+                <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932L18.9 1.153z"/>
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
 
@@ -203,21 +211,44 @@ export default function VoluworkPage() {
       {/* Compact Footer */}
       <footer className="bg-gray-900 text-gray-400 py-10">
         <div className="max-w-7xl mx-auto px-5 md:px-6">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="flex items-center gap-3">
-              <img src="/volu.png" alt="Voluwork" className="w-9 h-9" />
+              <img src="/volu.png" alt="Voluwork Logo" className="w-14 h-14" />
               <span className="text-white font-semibold text-2xl">Voluwork</span>
             </div>
 
-            <div className="flex gap-6 md:gap-8 text-sm">
-              <a href="https://www.youtube.com/voluwork" target="_blank" className="hover:text-white">YouTube</a>
-              <a href="https://www.tiktok.com/voluwork" target="_blank" className="hover:text-white">TikTok</a>
-              <a href="https://instagram.com/voluwork" target="_blank" className="hover:text-white">Instagram</a>
-              <a href="https://www.x.com/voluwork" target="_blank" className="hover:text-white">X</a>
+            {/* Social Icons in Footer */}
+            <div className="flex gap-8">
+              <a href="https://www.youtube.com/voluwork" target="_blank" className="hover:scale-110 transition-transform">
+                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.377.505 9.377.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
+              </a>
+
+              <a href="https://www.tiktok.com/voluwork" target="_blank" className="hover:scale-110 transition-transform">
+                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.525 3.5v8.078a4.5 4.5 0 1 1-2.25-3.89v2.25a2.25 2.25 0 1 0 2.25 2.25V3.5h2.25c.124-1.336.69-2.5 1.5-3.25h-3.75z"/>
+                  <path d="M19.5 9.75a4.5 4.5 0 0 1-3.75-2.12v2.25a2.25 2.25 0 0 0 1.5 2.12v.75a6 6 0 0 1-12 0v-.75a2.25 2.25 0 0 0 1.5-2.12V9.75A6 6 0 0 1 19.5 9.75z"/>
+                </svg>
+              </a>
+
+              <a href="https://instagram.com/voluwork" target="_blank" className="hover:scale-110 transition-transform">
+                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                </svg>
+              </a>
+
+              <a href="https://www.x.com/voluwork" target="_blank" className="hover:scale-110 transition-transform">
+                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932L18.9 1.153z"/>
+                </svg>
+              </a>
             </div>
           </div>
 
-          <div className="text-center mt-8 text-xs opacity-60 border-t border-gray-800 pt-6">
+          <div className="text-center mt-10 text-xs opacity-60 border-t border-gray-800 pt-6">
             © 2026 Voluwork • Empowering Community Changemakers in Nigeria
           </div>
         </div>
